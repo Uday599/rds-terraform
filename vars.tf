@@ -5,11 +5,11 @@ variable "AWS_REGION" {
 
 variable "db_password" {
   description = "Database administrator password"
-  type = string
-  sensitive = true
+  type        = string
+  sensitive   = true
 }
 
 variable "db_username" {
   description = "database user name"
-  type = string
+  type        = string
 }
