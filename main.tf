@@ -4,6 +4,7 @@ module "secrets_manager" {
 }
 
 module "rds_database" {
-  source = "./rds"
+  source = "./database"
   db_username = var.db_username
 }
+
